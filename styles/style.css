@@ -1,0 +1,127 @@
+/*! minireset.css v0.0.3 | MIT License | github.com/jgthms/minireset.css */
+/*--html, body,--*/
+p, ol, ul, li, dl, dt, dd, blockquote, figure, fieldset, legend, textarea, pre, iframe, hr,
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+ul {
+  list-style: none;
+}
+button, input, select, textarea {
+  margin: 0;
+}
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+img, embed, iframe, object, audio, video {
+  height: auto;
+  max-width: 100%;
+}
+iframe {
+  border: 0;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+td, th {
+  padding: 0;
+  text-align: left;
+}
+/*-- Global Styles --*/
+:root {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  line-height: 1.5;
+  color: #333;
+  font-size: 15px;
+}
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+h1 {font-size: 2em;}
+h2 {font-size: 1.8em;}
+h3 {font-size: 1.6em;}
+h4 {font-size: 1.4em;}
+h5 {font-size: 1.2em;}
+h6 {font-size: 1em;}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 800;
+  margin-top: .67em;
+  margin-bottom: .67em;
+  color: #777;
+}
+/*-- Document Styles --*/
+body {
+  width: 50%;
+  margin: 1em auto;
+  background-color: #111;
+}
+#initiative {
+  background-color: #777;
+  padding: 2em 4em;
+  position: relative;
+}
+#initiative li {
+  font-size: 2rem;
+  font-weight: 600;
+  border: 2px solid #333;
+  background-color: #CCC;
+  margin: 1em 0;
+  padding: .5em 1em .3em 1em;
+  border-radius: 4px;
+}
+#initiative li {
+  display: flex;
+  justify-content: space-between;
+}
+#initiative li div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+a.edit:link {
+  font-size: 1.25rem;
+  text-transform: uppercase;
+  display: inline-block;
+  text-decoration: none;
+  color: #EAEAEA;
+  transition: color .2s ease-in-out;
+}
+a.edit:hover {
+  color: #FFF;
+}
+#initiative p {
+  text-shadow: 1px 1px 0 white,
+               -1px -1px 0 white,
+               -1px 1px 0 white,
+               1px -1px 0 white;
+}
+.text {
+  border: 1px dotted transparent;
+}
+.label {
+  font-size: .8rem;
+  text-transform: uppercase;
+  line-height: .5;
+  color: #777;
+}
+.value {
+
+}
+.on {
+  color: pink !important;
+}
+.editing {
+  border-color: red;
+  background-color: pink;
+}
